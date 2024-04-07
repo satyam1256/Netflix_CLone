@@ -13,8 +13,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      textColor: {
+        // Define your custom text colors here
+        'primary': '#000000', // Example primary text color
+        'secondary': '#ff0000', // Example secondary text color
+        'accent': '#ff0000', // Example accent text color
+      },
     },
   },
   plugins: [],
 }
+
 export default config
